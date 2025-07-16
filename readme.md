@@ -22,7 +22,7 @@ Note that these variables are defined separately for **debug** and **release** b
 When done build and flash.
 
 ### Setting up device config
-To configure device specific settings, the weather station must be booted in config mode while connected via USB to a serial monitor like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) or [Minicom](https://www.putty.org). To enter config mode hold the the config mode button on the top right of the PCB and power cycle the device. The on board LED will flash three times to denote that device has booted in config mode.
+To configure device specific settings, the weather station must be booted in config mode while connected via USB to a serial monitor like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) or [Minicom](https://salsa.debian.org/minicom-team/minicom). To enter config mode hold the the config mode button on the top right of the PCB and power cycle the device. The on board LED will flash three times to denote that device has booted in config mode.
 Enter the following commands (values are entered without brackets):
 
     TB_DEVICE_TOKEN=[your tb device token]
